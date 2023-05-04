@@ -1,0 +1,133 @@
+// $theme-colors: (
+//   "primary": #00509d,
+//   "success": green,
+//   "info": #fdc500,
+//   "danger": red,
+// );
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: #EAFEFF;
+}
+
+.nav-link {
+    color: #F1FEFF;
+    margin: auto 4px
+}
+
+.signup-btn {
+    border: 1px solid #E2FDFF;
+    border-radius: 2px;
+    background-color: #5465FF;
+    color: white;
+    text-shadow: 2px 1px 1px #013369;
+}
+
+.form-control {
+    border: 2px solid #788BFF;
+    height: 46px;
+    background-color: #023E7D;
+    color: #4C5CE8
+}
+
+.card {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.page-heading,
+.base-hr,
+.form-label {
+    color: white;
+    text-shadow: 1px 1px 1px #4554D3;
+}
+
+.card-body {
+    margin: 10px
+}
+
+.d-block.signup-btn {
+    border: 1px solid #E2FDFF;
+    border-radius: 2px;
+    background-color: #5465FF;
+    color: white;
+    text-shadow: 2px 1px 1px #013369;
+    padding: 8px
+}
+
+.text-mute {
+    color: rgb(192, 192, 192)
+}
+
+.profile-panel-basic-btn {
+    border: 2px solid #0076eb;
+    border-radius: 4px;
+    background-color: #0353A4;
+}
+
+.profile-main-panel {
+    padding: 200px 20px;
+}
+
+@media (max-width: 960px) {
+    .profile-panel {
+        display: none;
+    }
+
+    .profile-main-panel {
+        padding: 100px 20px;
+    }
+}
+
+@media (min-width: 960px) {
+    .tiny-profile-lanel {
+        display: none;
+    }
+
+    ;
+}
+
+.phone {
+    input {
+        border-color: transparent;
+        background-color: #023E7D;
+        background: #023E7D;
+        color: #82B3E4;
+    }
+}
+
+.card-sign {
+    border: 1px solid #5465FF;
+    border-radius: 4px;
+    background-image: linear-gradient(to left, #788BFF , #9BB1FF);
+}
+
+.form-control, .form-control-input,.select-input {
+    background-color: #E2FDFF;
+    border: 1px solid #788BFF;
+    border-radius: 2px;
+    padding: 10px;
+
+}
+
+.profile-input {
+    background-color: white;
+    border: 1px solid #788BFF;
+}
+
+.tab-btn {
+    color: black;
+}
+
+.tab-btn:focus {
+    border: 1px solid #5667FF;
+    border-radius: 1px;
+}
+
+.chat-open-icon:hover {
+    cursor: pointer;
+    size: 28px;
+    color:#0076eb
+}
+
